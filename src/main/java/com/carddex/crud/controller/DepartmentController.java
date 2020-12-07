@@ -36,4 +36,5 @@ public class DepartmentController {
     public void deleteDepartment(@RequestParam Integer uuid) {
         service.deleteDepartment(uuid);
     }
+
 }
